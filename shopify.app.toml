@@ -1,0 +1,29 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "bb054ced5db0e3c36329770b86336482"
+application_url = "https://kathy-purchases-these-conspiracy.trycloudflare.com"
+embedded = true
+name = "my-app"
+handle = "my-app-1513"
+
+[webhooks]
+api_version = "2024-10"
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "read_products, read_product_listings, write_products"
+
+[auth]
+redirect_urls = [
+  "https://kathy-purchases-these-conspiracy.trycloudflare.com/auth/callback",
+  "https://kathy-purchases-these-conspiracy.trycloudflare.com/auth/shopify/callback",
+  "https://kathy-purchases-these-conspiracy.trycloudflare.com/api/auth/callback"
+]
+
+[pos]
+embedded = false
+
+[build]
+dev_store_url = "urbann-curate.myshopify.com"
+automatically_update_urls_on_dev = true
+include_config_on_deploy = true
