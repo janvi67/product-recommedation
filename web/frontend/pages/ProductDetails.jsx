@@ -83,7 +83,7 @@ function ProductDetails() {
   // Custom headings for the table
   const headings = [
     <Text size="small" element="h2">
-      Name
+      Namee
     </Text>,
     <Text size="small" element="h2">
       Created date
