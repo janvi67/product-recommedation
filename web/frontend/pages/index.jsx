@@ -21,7 +21,7 @@ export default function HomePage() {
           <Card sectioned>
             <TextContainer>
               <Text variant="heading3xl" as="h2">
-                Welcome to the Product Recommendation App
+                Welcome to the Product Recommendation Appp
               </Text>
               <p>
                 This app helps you explore personalized product recommendations
