@@ -14,7 +14,7 @@
   "dependencies": {
     "@shopify/app": "^3.23.0",
     "@shopify/cli": "^3.23.0",
-    "@shopify/polaris": "^13.9.1"
+    "@shopify/polaris": "^13.9.2"
   },
   "author": "alexabbott"
 }
